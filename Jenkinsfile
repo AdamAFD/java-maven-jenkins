@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
 
-                    cat /etc/ *release*
+                  
                     echo "Building the application..."
                 }
             }
