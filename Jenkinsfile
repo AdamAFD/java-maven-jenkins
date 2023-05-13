@@ -6,6 +6,8 @@ pipeline {
         stage('build') {
             steps {
                 script {
+
+                    cat /etc/ *release*
                     echo "Building the application..."
                 }
             }
@@ -26,3 +28,4 @@ pipeline {
         }
     }
 }
+
